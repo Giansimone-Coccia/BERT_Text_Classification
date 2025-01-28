@@ -1,12 +1,9 @@
 # Sephora Product Reviews Classification
+This project uses a subset of the ["Sephora Products and Skincare Reviews"](https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews) dataset to train a machine learning model capable of classifying Sephora product reviews as either **recommended** (1) or **not recommended** (0) based on the review content.
 
-Questo progetto utilizza un sottoinsieme del dataset ["Sephora Products and Skincare Reviews"](https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews) per addestrare un modello di apprendimento automatico in grado di classificare le recensioni dei prodotti Sephora come **raccomandate** (1) o **non raccomandate** (0) in base al contenuto della recensione.
+## Project Description
+The project aims to build a machine learning model, specifically a language model, for text classification. The target variable is the `Is_recommended` column, while the review text, contained in the `review_text` column, represents the predictive variable.
 
-## Descrizione del progetto
-
-Il progetto ha lo scopo di costruire un modello di machine learning, specificamente un modello linguistico, per la classificazione di testo. La variabile target è la colonna `Is_reccomended`, mentre il testo della recensione, contenuto nella colonna `review_text`, rappresenta la variabile predittiva.
-
-### Obiettivo principale
-
-- **Predictive Modeling**: Sviluppare un modello in grado di classificare le recensioni in base al sentiment e altri fattori impliciti indicati nel testo.
-- **Applicazioni**: Fornire un tool utile per analizzare rapidamente recensioni dei prodotti e supportare i processi decisionali di marketing.
+### Main Objectives
+- **Predictive Modeling**: Develop a model capable of classifying reviews based on sentiment and other implicit factors indicated in the text.
+- **Applications**: Provide a useful tool for quickly analyzing product reviews and supporting marketing decision processes.
